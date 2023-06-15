@@ -1,5 +1,10 @@
 #include<stdio.h>
 
+/**
+ * main - help to print c program using printf function
+ * Return : 0 means the successful of a program
+*/
+
 int main()
 {
 int i;
