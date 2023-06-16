@@ -1,22 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - The entry point of a program
+ * main - Entry point of a program
  * Return: 0 shows the success of the program
  */
 
 int main(void)
-{
-	int main(void)
 
 {
 
-	char c;
+	char xy;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (xy = 'a'; xy <= 'z'; xy++)
 
 	{
-		putchar(c);
+		putchar(xy);
 
 	}
 
