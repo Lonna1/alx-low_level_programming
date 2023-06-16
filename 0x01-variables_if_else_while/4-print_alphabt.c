@@ -7,16 +7,19 @@
 
 int main(void)
 {
-	int b = 'a';
+	char xy = 'a';
 
-	while (b <= 'z')
+	while (xy <= 'z')
 	{
-		if (b != 'e' && b != 'q')
-			putchar(b);
+		if (xy != 'e' && xy != 'q')
 		{
-			b++;
+	
+			putchar(xy);
 		}
-		putchar("\n");
+
+		xy++;
 	}
+		putchar('\n');
+
 	return (0);
 }
