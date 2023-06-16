@@ -7,17 +7,21 @@
 
 int main(void)
 {
-	char b;
+	int main(void)
 
-	for (b = 'a'; b <= 'z'; b++)
+{
+
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
 
 	{
-
-		putchar(b);
+		putchar(c);
 
 	}
-	
-	putchar("\n");
-	
+
+	putchar('\n');
+
 	return (0);
+
 }
