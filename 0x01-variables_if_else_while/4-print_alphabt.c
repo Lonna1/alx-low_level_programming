@@ -13,7 +13,6 @@ int main(void)
 	{
 		if (xy != 'e' && xy != 'q')
 		{
-	
 			putchar(xy);
 		}
 
