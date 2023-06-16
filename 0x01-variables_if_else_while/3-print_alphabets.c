@@ -6,15 +6,21 @@
  */
 
 int main(void)
-{
-	char b;
 
-	for (b = 'a'; b <= 'z'; b++)
-	putchar(b);
-	for (b = 'A'; b <= 'Z'; b++)
-	putchar(b);
-	{
-		putchar("\n");
-	}
+{
+
+	int xy;
+
+	for (xy = 'a'; xy <= 'z'; xy++)
+
+	putchar(xy);
+
+	for (xy = 'A'; xy <= 'Z'; xy++)
+
+	putchar(xy);
+
+	putchar('\n');
+
 	return (0);
+
 }
