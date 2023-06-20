@@ -5,10 +5,6 @@
  * print_alphabet - function name to be called by main
  * Return: 0 shows the successful of a program
  */
-void _putchar (char a)
-{
-	putchar (a);
-}
 void print_alphabet(void)
 {
 	char c;
@@ -16,10 +12,5 @@ void print_alphabet(void)
 	{
 	_putchar (c);
 	}
-}
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
+	putchar ('\n')
 }
