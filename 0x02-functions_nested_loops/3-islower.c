@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stlib.h>
+#include "main.h"
 
 /**
  * _islower - declaration of a prototype
