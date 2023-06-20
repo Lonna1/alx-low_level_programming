@@ -1,10 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point of the program
- * _putchar - declaration of _putchar
- * print_alphabet_x10 - help to print alphabets 10 times in main function
- * Return: 0 shows the successful of a program
+ * print_alphabet_x10 - help to print alphabets 10 times followed by a new line
  */
 
 void print_alphabet_x10(void)
