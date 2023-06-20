@@ -1,19 +1,12 @@
 #include "main.h"
 
 /**
- * _isalpha - shows the entry of a program
- * Retun: 1 shows that the letter is lower or upper case
- * Return: 0 shows that the letter is neither lower or upper case
+ * _isalpha - checks for alphabetic character either small or upper
+ * @c: the character to be checked by the program
+ * Return: 1 shows the success of the function else 0
  */
 
 int _isalpha(int c)
 {
-	if (c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z')
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
