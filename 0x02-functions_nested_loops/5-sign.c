@@ -1,15 +1,11 @@
 #include "main.h"
 
-void _putchar (char a)
-{
-	putchar (a);
-}
-
 /**
  * print_sign - this will help to print the sign
- * Retun: 1 shows that a number is greater than 0
- * Return: 0 shows that a number is equal to 0
- * Return: -1 shows that a number is less than 0
+ * @n: will be checked by the program
+ * Return: 1 greater than 0,
+ * 0 equal to 0 and
+ * -1 less than 0
  */
 
 int print_sign(int n)
