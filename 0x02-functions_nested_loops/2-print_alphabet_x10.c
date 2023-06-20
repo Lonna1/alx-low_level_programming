@@ -7,30 +7,17 @@
  * Return: 0 shows the successful of a program
  */
 
-void _putchar (char a)
-{
-	putchar (a);
-}
 void print_alphabet_x10(void)
 {
 	char c;
+	int x;
+
+	for (x = 0; x <= 9; x++)
+	{
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar (c);
 	}
 	_putchar ('\n');
-}
-int main(void)
-{
-	print_alphabet_x10();
-	print_alphabet_x10();
-	print_alphabet_x10();
-	print_alphabet_x10();
-	print_alphabet_x10();
-	print_alphabet_x10();
-	print_alphabet_x10();
-	print_alphabet_x10();
-	print_alphabet_x10();
-	print_alphabet_x10();
-	return (0);
+	}
 }
