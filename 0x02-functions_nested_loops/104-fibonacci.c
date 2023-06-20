@@ -10,11 +10,11 @@ int main(void)
 	unsigned long int x, y, z, u, v, w, a;
 
 	y = 1;
-	Z = 2;
+	z = 2;
 
 	printf("%lu", y);
 
-	for (x = 1; x <= 90; i++)
+	for (x = 1; x <= 90; x++)
 	{
 		printf(", %lu", z);
 		z = z + y;
