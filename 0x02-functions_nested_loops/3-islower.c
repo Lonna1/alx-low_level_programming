@@ -1,19 +1,12 @@
 #include "main.h"
 
 /**
- * _islower - declaration of a prototype
- * Return: 1 indicates that c is lowercase
- * Return: 0 shows the successs of the program
+ * _islower - will help to check for the lowe case
+ *@c: the parameter for being checked
+ * Return: 1 if c is lowercase, 0 if it is not
  */
 
 int _islower(int c)
 {
-	if (c >= 'a' && c <= 'z')
-	{
-		return (1);
-	}
-else
-{
-	return (0);
-}
+	return (c >= 'a' && c <= 'z');
 }
