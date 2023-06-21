@@ -2,22 +2,22 @@
 /**
  * positive_or_negative - this will help to print the number which is
  * negative, positive or zero
- * @x: this is the number to be checked
+ * @i: this is the number to be checked
  * Return: 0 shows the success of the program
  */
 
-void positive_or_negative(int x)
+void positive_or_negative(int i)
 {
-	if (x > 0)
+	if (i > 0)
 	{
-		printf("%d is %s", x, "positive");
+		printf("%d is %s", i, "positive");
 	}
-	else if (x < 0)
+	else if (i < 0)
 	{
-		printf("%d is %s", x, "negative");
+		printf("%d is %s", i, "negative");
 	}
 	else
 	{
-		printf("%d is %s", x, "zero");
+		printf("%d is %s", i, "zero");
 	}
 }
