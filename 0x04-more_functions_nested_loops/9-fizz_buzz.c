@@ -3,6 +3,9 @@
 
 /**
  * main - this is the entry point of the program
+ * Fizz is printerd when a number is a multiple of 3
+ * Buzz is printed when a number is a multiple of 5
+ * FizzBuzz is printed when a number is a multiple of both
  * Return: 0 shows the success of the program
  */
 
