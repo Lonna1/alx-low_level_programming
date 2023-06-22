@@ -1,15 +1,12 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - this is the entry point of the program
- * Fizz is printerd when a number is a multiple of 3
- * Buzz is printed when a number is a multiple of 5
- * FizzBuzz is printed when a number is a multiple of both
- * Return: 0 shows the success of the program
+ * main - prints the numbers from 1 to 100, followed by a new line
+ * but for multiples of three prints Fizz instead of the number
+ * and for the multiples of five prints Buzz
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int x;
