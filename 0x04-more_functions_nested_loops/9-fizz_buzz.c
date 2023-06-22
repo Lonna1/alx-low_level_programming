@@ -1,5 +1,5 @@
+#include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - this is the entry point of the program
  * Fizz is printerd when a number is a multiple of 3
@@ -15,23 +15,23 @@ int main(void)
 	{
 		if (x % 3 == 0)
 		{
-			printf(" Fizz");
+			printf("Fizz");
 		}
 		else if (x % 5 == 0)
 		{
-			printf(" Buzz");
+			printf("Buzz");
 		}
-		else if (x % 3 == 0 && x % 5 == 0)
+		else if ((x % 3 == 0) && (x % 5 == 0))
 		{
-			printf(" FizzBuzz");
-		}
-		else if (x == 1)
-		{
-			printf("%d", x);
+			printf("FizzBuzz");
 		}
 		else
 		{
-			printf(" %d", x);
+			printf("%d", x);
+		}
+		if (x != 100)
+		{
+			printf(" ");
 		}
 	}
 
