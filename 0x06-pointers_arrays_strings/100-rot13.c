@@ -13,7 +13,7 @@ char *rot13(char *a)
 	char data1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char datarot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	for (b = 0; a[b] != '\0'; i++)
+	for (b = 0; a[b] != '\0'; b++)
 	{
 		for (c = 0; c < 52; c++)
 		{
