@@ -3,21 +3,22 @@
 /**
  * print_number - function that prints an integer.
  * @n: integer to be checked
+ * Return: 0 to show success
  */
 
 void print_number(int n)
 {
-	unsigned int a;
+	unsigned int x;
 
-	a = n;
+	x = n;
 	if (n < 0)
 	{
-		_putchar('-');
-		a = -n;
+		_putchar ('-');
+		x = -n;
 	}
-	if (a / 10 != 0)
+	if (x / 10 != 0)
 	{
-		print_number(a / 10);
+		print_number(x / 10);
 	}
-	_putchar((a % 10) + '0');
+	_putchar((x % 10) + '0');
 }
