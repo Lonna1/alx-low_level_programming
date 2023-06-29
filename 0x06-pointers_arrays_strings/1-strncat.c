@@ -4,7 +4,7 @@
  * _strncat - This will help to concartanate two strings
  * @dest: The first string
  * @src: The second string
- * @n: bytese from src string
+ * @n: bytes from src string
  */
 
 char *_strncat(char *dest, char *src, int n)
