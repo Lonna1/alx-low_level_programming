@@ -5,7 +5,6 @@
  * of a square matrix of integers
  * @a: a pointer on the input
  * @size: matrix size to be checked
- * Return: 0 to show success
  */
 
 void print_diagsums(int *a, int size)
@@ -23,5 +22,4 @@ void print_diagsums(int *a, int size)
 			y = y + a[i];
 	}
 	printf("%d, %d\n", x, y);
-	return (0);
 }
