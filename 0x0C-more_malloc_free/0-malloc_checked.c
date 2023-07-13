@@ -1,0 +1,17 @@
+#include <stdlib.h>
+
+/**
+ * malloc_checked - function that allocates memory using malloc
+ * @b: amount of bytes in an unsigned integer
+ * Return: new_mem or 98 if malloc fails
+ */
+
+void *malloc_checked(unsigned int b)
+{
+	void *new_mem;
+
+	new_mem = malloc(b);
+	if (new_mem == NULL)
+		exit(98);
+	return (new_mem);
+}
