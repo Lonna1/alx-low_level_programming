@@ -1,0 +1,49 @@
+#include "variadic_functions.h"
+
+/**
+ * print_all - function that prints anything.
+ * @format: different types of arguments passed to the function
+ */
+void print_all(const char * const format, ...)
+{
+	va_list valist;
+	unsigned int x = 0, y, c = 0;
+	char *str;
+	const char t_arg[] = "cifs";
+
+	va_start(valist, format);
+	while (format && format[x])
+	{
+		y = 0;
+		while (t_arg[y])
+		{
+			if (format[x] == t_arg[y] && c)
+			{
+				printf(", ");
+				break;
+			} y++;
+		}
+		switch (format[x])
+		{
+			case 'a':
+				printf("%c", va_arg(valist, int)), c = 1;
+				break;
+			case 'b':
+				printf("%d", va_arg(valist, int)), c = 1;
+				break;
+			case 'c':
+				printf("%f", va_arg(valist, double)), c = 1;
+				break;
+			case 'd':
+				str = va_arg(valist, char *), c = 1;
+				if (!str)
+				{
+					printf("(nil)");
+					break;
+				}
+				printf("%s", str);
+				break;
+		} x++;
+	}
+	printf("\n"), va_end(valist);
+}
