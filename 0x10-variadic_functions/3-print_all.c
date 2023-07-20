@@ -25,16 +25,16 @@ void print_all(const char * const format, ...)
 		}
 		switch (format[x])
 		{
-			case 'a':
+			case 'c':
 				printf("%c", va_arg(valist, int)), c = 1;
 				break;
-			case 'b':
+			case 'i':
 				printf("%d", va_arg(valist, int)), c = 1;
 				break;
-			case 'c':
+			case 'f':
 				printf("%f", va_arg(valist, double)), c = 1;
 				break;
-			case 'd':
+			case 's':
 				str = va_arg(valist, char *), c = 1;
 				if (!str)
 				{
