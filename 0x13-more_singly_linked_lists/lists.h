@@ -9,7 +9,7 @@
  * @n: integer to be presented
  * @next: pointer to the next node
  * Description: singly linked list node structure
- * for Holberton project
+ * as well as as for Holberton project
  */
 typedef struct listint_s
 {
