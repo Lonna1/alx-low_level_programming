@@ -18,7 +18,7 @@ unsigned int binary_to_uint(const char *b)
 		night++;
 	night -= 1;
 	x = 0;
-	while (b[j])
+	while (b[x])
 	{
 		if ((b[x] != '0') && (b[x] != '1'))
 			return (non_binary);
